@@ -12,7 +12,6 @@ class Interval {
         return "[" + start + ", " + end + "]";
     }
 }
-
 class IntervalTreeNode {
     Interval interval;
     int max;
@@ -29,7 +28,6 @@ class IntervalTreeNode {
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class IntervalTree {
     private IntervalTreeNode root;
 
